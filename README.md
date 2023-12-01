@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+/*Read Me*/
+This is a Fact website for cats and dogs. 
+I have used 4 different apis to fetch data for images and facts, bootstrap and bootstrap icons, UseEffect and UseState hooks, react-router-dom.
+UseEffect to set title of the page and fetch.
+UseState to manage state.
+Bootstrap and Bootstrap icons to add css and icons.
+React-router-dom to manage pages for SPA.

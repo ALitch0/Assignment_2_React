@@ -11,7 +11,7 @@ function DogFacts() {
 
   useEffect(() => {
     //setting page title
-    document.title = "DogFacts";
+    document.title = "Dog Facts";
         //fetching api data
         if(fetchTriggered)
         {
@@ -53,10 +53,10 @@ function DogFacts() {
     <>
       <h1 className="d-inline bg-dark text-white">DogFacts</h1>
       <span className="d-block">One dog at a time</span>
-      {isVisible && <img src={dogPics[0].url} alt="Dog pics form api" className="img-fluid"/>}
-      <p>{dogFacts.facts}</p>
-      <a href="#" onClick={handelClick}>
-        dog Facts
+      {isVisible && <img src={dogPics[0].url} alt="Dog pics form api" className="img-fluid image"/>}
+      <p class="text-primary factPara">{dogFacts.facts}</p>
+      <a href="#" onClick={handelClick} class="btn btn-info"> 
+        Dog it!
       </a>
     </>
   );

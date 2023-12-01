@@ -11,7 +11,7 @@ function CatFacts() {
 
   useEffect(() => {
     //setting page title
-    document.title = "CatFacts";
+    document.title = "Cat Facts";
         //fetching api data
         if(fetchTriggered)
         {
@@ -39,10 +39,10 @@ function CatFacts() {
     <>
       <h1 className="d-inline bg-dark text-white">CatFacts</h1>
       <span className="d-block">One meow at a time</span>
-      {isVisible && <img src={meowPics[0].url} alt="cat pics form api" className="img-fluid"/>}
-      <p>{meowFacts.data}</p>
-      <a href="#" onClick={handelClick}>
-        Meow Facts
+      {isVisible && <img src={meowPics[0].url} alt="cat pics form api" className="img-fluid image"/>}
+      <p class="text-primary factPara">{meowFacts.data}</p>
+      <a href="#" onClick={handelClick} class="btn btn-info">
+        Meow it!
       </a>
     </>
   );

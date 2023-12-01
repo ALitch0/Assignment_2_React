@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <main className='container'>
+      <main>
         <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />

@@ -1,5 +1,8 @@
-.App {
+.App{
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-Height: '100vh'; 
 }
 
 .App-logo {
@@ -35,4 +38,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+label{
+  padding: 5px;
+}
+form{
+  text-align: left;
+}
+.factNavi{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
